@@ -1,3 +1,5 @@
+## 配置教程
+[简书地址](https://www.jianshu.com/p/5485b3c5bdc2)
 ## 开发
 
 ```bash
