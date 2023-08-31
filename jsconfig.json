@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "~/*": ["*"],
+      "@/*": ["src/*"],
+      "/#/*": ["types/*"],
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": ["src/**/*.js",  "src/**/*.vue"],
+  "exclude": ["node_modules", "dist"]
+}
