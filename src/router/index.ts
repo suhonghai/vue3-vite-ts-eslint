@@ -10,7 +10,7 @@ import {
 
 export const constantRoutes: VabRouteRecord[] = [
   {
-    path: '/home',
+    path: '/',
     name: 'Home',
     component: () => import('@/views/Home/index.vue'),
     meta: {
